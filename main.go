@@ -27,4 +27,17 @@ func main() {
 	case Seller:
 		fmt.Println(i.(Seller).DeliversTo(givenCity))
 	}
+	
+	var arr []int
+	arr = nil
+	
+	if arr != nil {
+	    for _, val := range arr {
+		    print(val)
+	    }
+	}
+	
+	if arr == nil || len(arr) == 0 {
+        	println("err! arr is not populated.")
+	}
 }
